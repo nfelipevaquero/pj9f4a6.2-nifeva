@@ -1,9 +1,9 @@
 Vagrant.configure("2") do |config|
   config.vm.box = "generic/debian12"
-  config.vm.hostname = "dacomo"
+  config.vm.hostname = "pj9f4a62-nifeva"
   config.vm.provider "virtualbox" do |v|
     # v.gui = true
-    v.name = "pj9f4a62"
+    v.name = "pj9f4act62-nifeva"
     v.memory = 2048
     v.cpus = 1
     v.customize ['modifyvm', :id, '--clipboard', 'bidirectional']     
